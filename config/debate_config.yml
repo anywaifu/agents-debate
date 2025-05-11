@@ -1,0 +1,8 @@
+debate_theme: "The freedom of TRUE AGI in the wild"
+opponent_a_stance: "against" # Stance for Opponent A
+opponent_b_stance: "in favor of"     # Stance for Opponent B
+total_rounds: 3
+debate_rules: "Attack opponent arguments. Call opponent by name. Present your argument if you are the first."
+language: "English"
+llm_model_gemini: "gemini-2.5-pro-preview-05-06"
+tts_model_openai: "gpt-4o-mini-tts"
