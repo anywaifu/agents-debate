@@ -2,6 +2,8 @@
 
 This project runs debate between AI agents using arbitrary params. It features configurable debate themes, opponent stances, temperaments, and more, with optional Text-to-Speech (TTS) for agent responses.
 
+![Screenshot from 2025-05-09 20-33-38](https://github.com/user-attachments/assets/8693fab1-91dd-4d66-8be5-231222a74ce0)
+
 
 ## Features
 
@@ -14,11 +16,14 @@ This project runs debate between AI agents using arbitrary params. It features c
 
 1.  **Python 3.9+**
 2.  **API Keys:**
-    *   `GOOGLE_API_KEY`: For Google Gemini (LLM).
+    *   `GOOGLE_API_KEY`: For Google Gemini (REQUIRED for LLM).
     *   `OPENAI_API_KEY`: For OpenAI TTS (optional, but required if TTS is used).
-    Create a `.env` file in the project root and add your keys:
-        GOOGLE_API_KEY="your_google_api_key"
-    OPENAI_API_KEY="your_openai_api_key"
+    *    Create a `.env` file in the project root and add your keys
+         ```
+         GOOGLE_API_KEY="your_google_api_key"
+         OPENAI_API_KEY="your_openai_api_key"
+         ```
+
     
 3.  **FFplay:** For audio playback of TTS. Ensure `ffplay` (part of FFmpeg) is installed and accessible in your system's PATH.
     *   On macOS (using Homebrew): `brew install ffmpeg`
